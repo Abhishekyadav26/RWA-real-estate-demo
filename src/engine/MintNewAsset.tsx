@@ -1,7 +1,8 @@
 import { prepareContractCall, Engine } from "thirdweb";
 import { serverWallet } from "./ServerWallet";
-import { rwaContract } from "./RWAContract";
 import { client } from "../client";
+import { rwaContract } from "./RWAContract";
+
 
 export const createNewProperty = async(
     propertyAddress: string,
